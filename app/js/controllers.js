@@ -31,7 +31,7 @@ myApp.controller('MyCtrl1', ['$scope', 'fleetTypesFactory', function ($scope, fl
     });
 
         $scope.isEventTypesEmpty = true;
-        
+
         //Watching an array for changes
         $scope.$watch('FleetEventTypes', function() {
             $scope.isEventTypesEmpty = ($scope.FleetEventTypes == null);
