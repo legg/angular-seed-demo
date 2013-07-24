@@ -4,13 +4,17 @@
     <list default="true" id="0b6017e2-afb2-4afe-a0c9-c4f2416b156a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/controllers.js" afterPath="$PROJECT_DIR$/app/js/controllers.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/unit/controllersSpec.js" afterPath="$PROJECT_DIR$/test/unit/controllersSpec.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="angular-seed-demo.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="0b6017e2-afb2-4afe-a0c9-c4f2416b156a" time="1374668644989" ignored="false" />
-    <file path="/controllersSpec.js" changelist="0b6017e2-afb2-4afe-a0c9-c4f2416b156a" time="1374669145186" ignored="false" />
+    <file path="/Dummy.txt" changelist="0b6017e2-afb2-4afe-a0c9-c4f2416b156a" time="1374673790007" ignored="false" />
+    <file path="/controllersSpec.js" changelist="0b6017e2-afb2-4afe-a0c9-c4f2416b156a" time="1374672321890" ignored="false" />
     <file path="/controllers.js" changelist="0b6017e2-afb2-4afe-a0c9-c4f2416b156a" time="1374671235838" ignored="false" />
+    <file path="$PROJECT_DIR$/../fg-premium-web/app/js/dashboard/controllers.js" changelist="0b6017e2-afb2-4afe-a0c9-c4f2416b156a" time="1374672779705" ignored="false" />
+    <file path="$PROJECT_DIR$/../fg-premium-web/app/partials/menu.html" changelist="0b6017e2-afb2-4afe-a0c9-c4f2416b156a" time="1374672779705" ignored="false" />
+    <file path="$PROJECT_DIR$/../fg-premium-web/app/index.html" changelist="0b6017e2-afb2-4afe-a0c9-c4f2416b156a" time="1374673161390" ignored="false" />
+    <file path="$PROJECT_DIR$/../fg-premium-web/app/partials/dashboard/reports.html" changelist="0b6017e2-afb2-4afe-a0c9-c4f2416b156a" time="1374672779705" ignored="false" />
+    <file path="/index.html" changelist="0b6017e2-afb2-4afe-a0c9-c4f2416b156a" time="1374673154552" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +46,7 @@
       <file leaf-file-name="controllers.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/js/controllers.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="22" selection-start="494" selection-end="494" vertical-scroll-proportion="0.2972973">
+            <state line="9" column="19" selection-start="250" selection-end="250" vertical-scroll-proportion="0.3207547">
               <folding />
             </state>
           </provider>
@@ -51,7 +55,7 @@
       <file leaf-file-name="controllersSpec.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/unit/controllersSpec.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="56" selection-start="1086" selection-end="1086" vertical-scroll-proportion="0.0">
+            <state line="26" column="12" selection-start="812" selection-end="812" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -266,16 +270,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1010" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24980111" sideWeight="0.7696827" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24980111" sideWeight="0.59106934" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23031728" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40893066" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291714" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -356,14 +360,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/unit/controllersSpec.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="56" selection-start="1086" selection-end="1086" vertical-scroll-proportion="0.0">
+        <state line="26" column="12" selection-start="812" selection-end="812" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/js/controllers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="22" selection-start="494" selection-end="494" vertical-scroll-proportion="0.2972973">
+        <state line="9" column="19" selection-start="250" selection-end="250" vertical-scroll-proportion="0.3207547">
           <folding />
         </state>
       </provider>

@@ -1,9 +1,6 @@
 'use strict';
 
-/* jasmine specs for controllers go here */
-
-
-describe('proper mocking', function () {
+describe('mocking the factory response', function () {
 
     beforeEach(module('myApp.controllers'));
 
@@ -12,33 +9,42 @@ describe('proper mocking', function () {
     //Prepare the fake factory
     beforeEach(function() {
         fakeFactory = {
-            getStuff: function() {
+            requestPeople: function() {
                 deferred = q.defer();
                 //Place fake return object here
-                deferred.resolve({ "EventTypes": "FakeResponse" });
+                deferred.resolve("test");
                 return deferred.promise;
             }
         };
-        spyOn(fakeFactory, 'getStuff').andCallThrough();
+        spyOn(fakeFactory, 'requestPeople').andCallThrough();
     });
 
     //Inject fake factory into controller
     beforeEach(inject(function($rootScope, $controller, $q) {
         scope = $rootScope.$new();
         q = $q;
-        controller = $controller('MyCtrl1', { $scope: scope, fleetTypesFactory: fakeFactory });
+        controller = $controller('MyCtrl1', { $scope: scope, MyFactory: fakeFactory });
     }  ));
 
-    it('this is the test...', function () {
+    it('The peopleList object is not defined yet', function () {
         // Before $apply is called the promise hasn't resolved
-        expect(scope.FleetEventTypes).not.toBeDefined();
-
-        //This propagates the changes to the models
-        scope.$apply();
-
-        expect(scope.FleetEventTypes).toBeDefined();
-        expect(fakeFactory.getStuff).toHaveBeenCalled();
-        expect(scope.FleetEventTypes).toBe("FakeResponse");
+        expect(scope.peopleList).not.toBeDefined();
     });
 
+    it('Applying the scope causes it to be defined', function () {
+        // This propagates the changes to the models
+        // This happens itself when you're on a web page, but not in a unit test framework
+        scope.$apply();
+        expect(scope.peopleList).toBeDefined();
+    });
+
+    it('Ensure that the method was invoked', function () {
+        scope.$apply();
+        expect(fakeFactory.requestPeople).toHaveBeenCalled();
+    });
+
+    it('Check the value returned', function () {
+        scope.$apply();
+        expect(scope.peopleList).toBe("test");
+    })
 });
